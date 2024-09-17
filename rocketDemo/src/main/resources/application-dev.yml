@@ -1,0 +1,8 @@
+rocketmq:
+  name-server: 192.168.22.197:9876
+  producer:
+    group: my-producer-group
+    topic: dp
+  consumer:
+    group: my-consumer-group
+    topic: dp
